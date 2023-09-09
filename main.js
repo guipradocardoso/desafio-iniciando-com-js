@@ -81,11 +81,10 @@ if ((pairOne + pairTwo) % 2 == 0) {
 /*10. Crie um script que declare uma variável e verifique se o seu valor é um número ímpar. Se for, exiba a mensagem "É um número ímpar", caso contrário, exiba a mensagem "Não é um número ímpar".
  */
 
-let equalOne = 10
-let equalTwo = 10
+const isOddNumber = 5
 
-if (equalOne == equalTwo) {
-  alert("Os dois números  são iguais.")
+if (isOddNumber % 2 != 0) {
+  alert('É um número ímpar')
 } else {
-  alert("Os números são diferentes.")
+  alert('Não é um número ímpar')
 }
